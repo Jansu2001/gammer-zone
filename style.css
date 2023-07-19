@@ -254,6 +254,7 @@ height: 300px;
     display: flex;
     justify-content: space-between;
     gap: 25px;
+    margin-bottom: 40px;
 }
 
 .rectangle-left{
@@ -310,8 +311,77 @@ line-height: 30px; /* 166.667% */
 /*--------------------------------------------------------------
 -------------------SPONSOR SECTION STYLE START-----------------*/
 
+#sponsor{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    text-align: end;
 
+
+}
+#sponsor div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+#sponsor div img{
+    width: 50px;
+    height: 50px;
+}
 
 
 /*--------------------------------------------------------------
 -------------------SPONSOR SECTION STYLE END-----------------*/
+
+
+/*--------------------------------------------------------------
+----------------------FOOTER SECTION STYLE END-----------------*/
+footer{
+    background: #0B0223;
+    color: #FFFFFF;
+    margin-top: 50px;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    gap: 20px;
+}
+section{
+    text-align: center;
+    margin: auto;
+}
+footer div{
+    display: flex;
+    gap: 10px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img{
+    height: 40px;
+}
+.footer-logo h3{
+    font-size: 30px;
+    margin-left: 15px;
+    
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-logo h3 span{
+    color: #FF42A5;
+}
