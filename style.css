@@ -192,6 +192,7 @@ margin-bottom: 2px;
 border-radius: 48px;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
+
 .gammer-right h2 span{
     color: #534C64;
 text-align: right;
@@ -271,6 +272,7 @@ height: 300px;
     left: 60%;
     height: 50%;
 }
+
 .rectangle-right{
     align-items: center;
     margin: auto;
@@ -344,44 +346,84 @@ footer{
     background: #0B0223;
     color: #FFFFFF;
     margin-top: 50px;
-    align-items: center;
-}
-
-footer ul{
-    display: flex;
-    gap: 20px;
-}
-section{
     text-align: center;
-    margin: auto;
-}
-footer div{
-    display: flex;
-    gap: 10px;
-}
-
-footer ul li{
-    list-style: none;
+    padding: 20px 0px;
+    
 }
 
 .footer-logo{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    padding: 2px;
 }
 
 .footer-logo img{
     height: 40px;
 }
+
+
 .footer-logo h3{
-    font-size: 30px;
-    margin-left: 15px;
-    
+    text-align: center;
 font-family: Work Sans;
 font-size: 45px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+
+    margin-left: 15px;
 }
 .footer-logo h3 span{
     color: #FF42A5;
+}
+
+
+.ul-li-one{
+    margin-top: 2px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0px;
+}
+
+.ul-li-two{
+    margin-top: 2px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
